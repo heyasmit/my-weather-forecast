@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather QuickLook</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>☁️ Weather QuickLook</h1>
+      <div class="controls">
+        <form id="search-form">
+          <input id="city-input" type="text" placeholder="Search city (e.g., Paris)" aria-label="City name" />
+          <button type="submit">Search</button>
+        </form>
+        <button id="geo-btn" class="secondary">Use my location</button>
+        <label class="toggle">
+          <input type="checkbox" id="unit-toggle" />
+          <span>°C / °F</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="current" class="card current-card">
+        <div class="placeholder">Type a city or use your location to see the weather.</div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">7‑Day Forecast</h2>
+        <div id="forecast" class="forecast-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://open-meteo.com/" target="_blank" rel="noopener">Data: Open‑Meteo</a>
+      <span>•</span>
+      <a href="https://github.com/" target="_blank" rel="noopener">Host on GitHub Pages</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
