@@ -30,3 +30,9 @@ A tiny, beginner‑friendly weather app using the free **Open‑Meteo** API (no 
 - Icons: simple emojis mapped from WMO weather codes.
 
 Enjoy hacking! ✨
+## 👨‍💻 Developer
+
+**ASMIT SRIVASTAVA** 
+
+💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/asmit-srivastava-178420315/)  
+📸 **Instagram:** [@hey.asmit](https://www.instagram.com/hey.asmit/)  
